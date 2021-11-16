@@ -1,0 +1,403 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #2E2E2E !important;
+  background-color: #2E2E2E;
+}
+
+.menu {
+  background: #1D1D1D !important;
+  background-color: #1D1D1D;
+
+
+
+  // 11/13 5:00pm
+  .columns {
+    padding-top: 10px;
+    padding-bottom: 10px !important;
+    padding-left: 10px;
+    padding-right: 10px !important;
+  }
+
+  .logo-col{
+    img {
+      padding-left: 20px;
+    }
+  }
+
+  .menu-col {
+    padding-right: 30px !important;
+    a {
+      color: #fff;
+      padding-right: 5px !important;
+      padding-left: 5px !important;
+      vertical-align: center !important;
+    }
+  }
+
+}
+
+
+.body-drip {
+  border-top: 8px solid #663399;
+}
+
+// Full Width Headers
+.header {
+  background: #8a8a8a;
+}
+
+.header .columns {
+  padding-bottom: 0;
+}
+
+.header p {
+  color: #fff;
+  padding-top: 15px;
+}
+
+.header .wrapper-inner {
+  padding: 20px;
+}
+
+.header .container {
+  background: transparent;
+}
+
+
+//Reusable class
+h1, h2{
+  text-align: center;
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 60px;
+}
+
+// Hero
+.hero {
+  background-color: #00AB00;
+  .columns{
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+   
+
+    img {
+      max-width: 80%;
+      height: auto;
+    }
+  }
+
+  
+  .hero-right {
+    padding-top: 20px;
+    padding-right: 30px !important;
+  
+    h1, h2{
+      text-align: center;
+      color: white;
+      font-family: 'Bebas Neue', cursive;
+      font-size: 60px;
+    }
+
+    h2{
+      font-size: 40px !important;
+      padding-bottom: 10px !important;
+    }
+    .hero-info {
+      font-size: 14px;
+      color: white;
+      text-align: center;
+      padding-bottom: 20px;
+      max-width: 80%;
+      margin: auto;
+    }
+  
+    .button{
+      vertical-align: bottom;
+      background: #1D1D1D;
+      background-color: #1D1D1D;
+      color: white;
+      margin:auto;
+
+      width: 150px;
+      text-align:center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 25px;
+
+    }
+
+  }
+}
+
+// Power section
+
+.power {
+  background-color: #1D1D1D !important;
+  .columns{
+    padding-top: 40px;
+    padding-bottom: 40px;
+   
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  .hero-left {
+    vertical-align: center !important;
+  }
+
+  .hero-right {
+
+    padding-right: 50px !important; 
+    .sub-hero-text{
+      color: #00AB00;
+      font-size: 32px;
+    }
+    p{
+      color: #ffffff;
+      font-size: 16px;
+      text-align: center;
+      max-width: 80%;
+    }
+    
+    .button {
+      background: white;
+      background-color: white;
+      color: black;
+      margin:auto;
+
+      margin-top: 30px;
+
+      width: 150px;
+      text-align:center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 25px;
+
+      text-transform: uppercase;
+    }
+
+  }
+ }
+
+// feature section
+.feature-section {
+  background: #00AB00 !important;
+  background-color: #00AB00 !important;
+
+  padding-right: 40px !important;
+  padding-left: 20px !important;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  width: 100%;
+
+  h1 {
+    padding-bottom: 30px;
+  }
+  
+  h3{
+    font-family: 'Bebas Neue', cursive !important;
+  }
+  .feature-row {
+    padding-left: 30px !important;
+    
+    .feature-container {
+      .icon {
+        margin: auto;
+      }
+    }
+
+    img {
+      padding-left: 20px;
+    }
+  }
+}
+
+// price section
+.price-section-title{
+  background-color: #201F24 !important;
+  background: #201F24 !important;
+
+  .columns{
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+  .title {
+    color: #ffffff;
+  }
+  .green {
+    color: #00AB00;
+  }
+}
+
+.price-container {
+  background-color:#201F24;
+  background: #201F24;
+  
+  .xbox-col {
+    
+    img {
+      max-width: 70%;
+    }
+  }
+
+  .price-card {
+    background-color:#191919;
+    background: #191919;
+    border: 1px solid #707070;
+    padding-bottom: 30px;
+
+    .start-price{
+      padding-top: 20px !important;
+      margin-bottom: 0px !important;
+      color: #00AB00 !important;
+    }
+    .start-price, .detail{
+      text-align: left;
+      color: white;
+      font-family: 'Bebas Neue', cursive;
+      font-size: 22px;
+
+      padding-left: 20px !important;
+      padding-right: 20px !important;
+
+      padding-left: 20px !important;
+      padding-right: 20px !important;
+    }
+    
+    .breakline {
+      display: block;
+      height: 2px !important;
+      width: 70% !important;
+      background-color:#707070;
+      background: #707070;
+
+      margin-bottom: 10px;
+      margin-left: 20px;
+      
+    }
+    .includes, .info {
+      text-align: left;
+      color: #ffffff;
+      font-size: 14px;
+      padding-left: 20px !important;
+      padding-right: 20px !important; 
+    }
+
+    .includes{
+    
+      padding-bottom: 20px;
+    }
+    .button-link {
+      background-color: #00AB00;
+      background: #00AB00;
+      color: #ffffff;
+      font-size: 13px;
+      text-transform: capitalize;
+
+      padding-top: 10px !important;
+      padding-bottom: 10px !important;padding-left: 10px !important;
+      padding-right: 10px !important;
+
+      margin-left: 20px;
+    }
+  }
+}
+
+// footer section
+.footer {
+  background: #2A2A2A !important;
+  background-color: #2A2A2A !important;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+
+  // left column
+  .left-col {
+    .contact{
+      .icon{
+        
+        padding-bottom: 12px;
+      }
+    }
+    h3, p {
+      color: #ffffff !important;
+    }
+    h3{
+      padding-bottom: 20px;
+    }
+  }
+
+  // right column
+  .right-col {
+    h3, p {
+      color: #ffffff !important;
+    }
+    h3{
+      padding-bottom: 20px;
+    }
+    .description{
+      
+      p{
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+        background-color: blue !important;
+      }
+    }
+
+    .social-icons{
+      img {
+        width: 20px;
+      }
+      .columns{
+        margin-right: 0 !important;
+      }
+    }
+  }
+}
+
+// Social Media
+table.button.facebook table td {
+  background: #3B5998 !important;
+  border-color: #3B5998;
+}
+
+table.button.twitter table td {
+  background: #1daced !important;
+  border-color: #1daced;
+}
+
+table.button.google table td {
+  background: #DB4A39 !important;
+  border-color: #DB4A39;
+}
+
+.wrapper.secondary {
+  background: #f3f3f3;
+}
+
+
+th[valign="middle"] {
+  vertical-align: middle !important; 
+
+}
+
+
+@media only screen and (max-width: 596px)
+{
+    .header {
+      width: 100% !important;
+    }
+
+    table.menu td, table.menu th {
+      max-width: auto !important;
+    }
+}
